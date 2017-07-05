@@ -17,7 +17,7 @@ class SlackBot:
         print "WHAM!!!!!"
         DB = sqliteWrapper.sql().connect("nobigyul.db")
 
-        token = "xoxb-24779113027-zeP220ZhisB30lyV1DDM1NFc"  # found at https://api.slack.com/web#authentication
+        token = ""  # found at https://api.slack.com/web#authentication
         sc = SlackClient(token)
 
         bot_status = ""
